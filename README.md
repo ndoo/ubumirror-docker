@@ -34,7 +34,7 @@ As an example, using the `uburelease` command:
 docker run \
     -v $(pwd)/releases:/srv/mirror/ubuntu-releases \
     -v $(pwd)/logs:/var/log/ubumirror \
-    -i -t nickcharlton/ubumirror /usr/bin/uburelease
+    -t nickcharlton/ubumirror /usr/bin/uburelease
 ```
 
 You'll want to adjust the mounted volumes according to where the data should be
